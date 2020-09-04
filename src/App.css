@@ -15,6 +15,15 @@ body {
   display: inline-block;
 }
 
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: rgb(7, 59, 57);
+}
+
 .editorWrap textarea, .previewWrap {
   background-color: #eff0f0;
   border: 1px solid #1d2f2f;

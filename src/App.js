@@ -1,5 +1,7 @@
 import React from "react";
 import Badge from "react-bootstrap/Badge";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 
 let marked = require("marked");
@@ -49,6 +51,9 @@ export default class App extends React.Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="footer">
+                Made by _<a className="button" target="_blank" href="https://github.com/akubaru">Akbar </a><FontAwesomeIcon icon={faGithub} size="lg"/>
                 </div>
             </div>
         )
